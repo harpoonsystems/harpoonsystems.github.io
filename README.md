@@ -1,2 +1,1 @@
-# harpoonsystems.github.io
-Harpoon Systems
+# Harpoon Systems
