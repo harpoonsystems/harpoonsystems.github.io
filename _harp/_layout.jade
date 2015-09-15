@@ -13,24 +13,27 @@ html
   body.theme
     nav.white(role='navigation')
       .nav-wrapper.container
-        a.brand-logo(href="#") Harpoon Systems
+        a.brand-logo.pink-text(href="#") Harpoon Systems
         ul.right.hide-on-med-and-down
           li
-            a(href="#about") About Us
+            a(href="#about")
         a.button-collapse(href="#" data-activates="nav-mobile" )
           i.material-icons menu
     != yield
-    footer.page-footer.pink.darken-1.text-white
+    footer.page-footer.pink.darken-1.text-white(id="contact")
       .container
         .row
           .col.l6.s12
             h5.white-text Harpoon Systems
-            p.grey-text.text-lighten-4 Jammu &amp; Kashmir
+            p.grey-text.text-lighten-4
+                | Gandhinagar
+                br
+                | Jammu &amp; Kashmir
           .col.l3.s12
-            h5.white-text Services
+            h5.white-text
             p.grey-text.text-lighten-4
           .col.l3.s12
-            h5.white-text Connect
+            h5.white-text
             p.grey-text.text-lighten-4
       .footer-copyright.pink.darken-2.text-white
         .container
